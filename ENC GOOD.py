@@ -2,7 +2,7 @@
 # input : str
 # output : str
 
-plaintext = input('Enter message you wish to encrypt. It must be between 3 to 100 characters: ')
+plaintext = input('Enter message you wish to encrypt. It must be between 3 to 100 characters, and only contain letters: ')
 #Use title and replace functions to get rid of all the spaces in the message, and capitalize firs letter of each word to distinguish
 plaintext = plaintext.title()
 plaintext = plaintext.replace(" ", "")
